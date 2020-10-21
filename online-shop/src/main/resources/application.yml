@@ -1,0 +1,13 @@
+#server:
+#    servlet:
+#        context-path: /api
+
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/online_shop?useSSL=false
+        username: root
+        password: 1234
+        pool-size: 30
+#    jpa:
+#        hibernate:
+#            ddl-auto: none
